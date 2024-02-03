@@ -7,3 +7,5 @@ Faker
 sqlalchemy-filters
 colorama
 flask-mail
+
+#USAMOS EL SIGUIENTE COMANDO 
