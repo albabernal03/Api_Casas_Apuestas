@@ -69,5 +69,7 @@ print('R2:',r2)
 plt.scatter(X_test,y_test)
 plt.plot(X_test,y_pred,color='red')
 plt.show()
+#Guardamos el grafico en un archivo
+plt.savefig('regresion_lineal.png')
 
 
