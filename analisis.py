@@ -7,6 +7,12 @@ import matplotlib.pyplot as plt
 conn=sqlite3.connect('bookmaker.db')
 
 #leer la tabla de equipos
-equipos=pd.read_sql_query("SELECT * FROM equipos",conn)
+query='SELECT * FROM equipos'
+df=pd.read_sql(query,conn)
 
-#Empezamos con el análisis de los datos
+#ANALISIS DE DATOS
+
+#Mostramos la informacion de la tabla
+df.info()
+
+#Ahora borramos las columnas que no necesitamos para el analisis como 
