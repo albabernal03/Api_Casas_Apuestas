@@ -36,7 +36,7 @@ print(promedio_puntaje_por_pais)
 promedio_puntaje_por_pais.plot(kind='bar')
 plt.show()
 #Guardamos el grafico en un archivo
-plt.savefig('promedio_puntaje_por_pais.png')
+plt.savefig('graficas/promedio_puntaje_por_pais.png')
 
 
 #Ahora vamos a crear un modelo de regrisión lineal para predecir el puntaje de un equipo
@@ -70,6 +70,6 @@ plt.scatter(X_test,y_test)
 plt.plot(X_test,y_pred,color='red')
 plt.show()
 #Guardamos el grafico en un archivo
-plt.savefig('regresion_lineal.png')
+plt.savefig('graficas/regresion_lineal.png')
 
 
