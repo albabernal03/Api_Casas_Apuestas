@@ -14,7 +14,7 @@ pip install -r requirements.txt
 ```
 
 <h2>Explicación:</h2>
-
+En esta tarea lo que hacemos es realizar un análisis de los datos que se nos proporcionan dentro del archivo ''bookmaker.db'' para ello hacemos uso de pandas, numpy y mathplotlib.
 
 
 
