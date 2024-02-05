@@ -20,7 +20,7 @@ En esta tarea lo que hacemos es realizar un análisis de los datos que se nos pr
 
 **1.** En primer lugar, abrimos el archivo SQL usando '...' para ver con que datos contamos.
 
-**2.** Una vez vito los datos, vimos que mucha de las tablas que se nos propocionan o estaban casi vacias o contaban con datos que no son relevantes para el análisis; es por ello que decidimos analizar la tabla de 'equipos'.
+**2.** Una vez visto los datos, vimos que mucha de las tablas que se nos propocionan o estaban casi vacias o contaban con datos que no son relevantes para el análisis; es por ello que decidimos analizar la tabla de 'equipos'.
 
 
 # Bookmaker-DS
