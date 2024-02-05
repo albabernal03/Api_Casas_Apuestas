@@ -2,7 +2,7 @@
 
 <h2>Repositorio:</h2>
 
-Este es el link del [repositorio]()
+Este es el link del [repositorio](https://github.com/albabernal03/Api_Casas_Apuestas)
 ***
 
 
