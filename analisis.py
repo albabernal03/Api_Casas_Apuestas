@@ -31,6 +31,9 @@ equipo_con_mas_puntaje=df[df['puntaje']==df['puntaje'].max()]
 
 #Agrupar por pais y obtener el promedio de puntaje
 promedio_puntaje_por_pais=df.groupby('pais')['puntaje'].mean()
+#ordenamos los datos de menor a mayor
+promedio_puntaje_por_pais.sort_values(ascending=True,inplace=True)
+
 print(promedio_puntaje_por_pais)
 #HACEMOS UN GRAFICO DE BARRAS PARA MOSTRAR EL PROMEDIO DE PUNTAJE POR PAIS
 promedio_puntaje_por_pais.plot(kind='bar')
